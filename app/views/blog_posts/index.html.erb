@@ -1,0 +1,9 @@
+<h1>My Blog Posts</h1>
+<% @blogPosts.each do |blogPost| %>
+  <div>
+    <h2><%= blogPost.title %></h2>
+    <p>
+      <%= blogPost.body %>
+    </p>
+  </div>
+<% end %>
